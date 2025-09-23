@@ -1,0 +1,856 @@
+%!
+/Courier findfont
+30 scalefont
+600 10 translate
+90 rotate
+setfont
+/celda
+{0 70 rlineto
+110 0 rlineto
+0 -70 rlineto
+closepath
+3 setlinewidth } def
+newpath
+10 560 moveto
+(7 Turismo Nacional) show
+newpath
+10 530 moveto
+(44 hts en contenedor 03) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+10 450 moveto celda
+stroke
+newpath
+100 505 moveto
+(1) show
+newpath
+15 505 moveto
+(K478 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+15 455 moveto
+(3-Jorge R) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+10 380 moveto celda
+stroke
+newpath
+100 435 moveto
+(2) show
+newpath
+15 435 moveto
+(K613 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+15 385 moveto
+(Rotondo F) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+10 310 moveto celda
+stroke
+newpath
+100 365 moveto
+(3) show
+newpath
+15 365 moveto
+(K609 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+15 315 moveto
+(1-Encargado) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+10 240 moveto celda
+stroke
+newpath
+100 295 moveto
+(4) show
+newpath
+15 295 moveto
+(K611 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+15 245 moveto
+(Pastori) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+10 170 moveto celda
+stroke
+newpath
+100 225 moveto
+(5) show
+newpath
+15 225 moveto
+(K643 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+15 175 moveto
+(Cano R 2) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+10 100 moveto celda
+stroke
+newpath
+100 155 moveto
+(6) show
+newpath
+15 155 moveto
+(K556 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+15 105 moveto
+(Cano R 1) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+10 30 moveto celda
+stroke
+newpath
+100 85 moveto
+(7) show
+newpath
+15 85 moveto
+(K591 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+15 35 moveto
+(Cano R) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+120 450 moveto celda
+stroke
+newpath
+210 505 moveto
+(8) show
+newpath
+125 505 moveto
+(K647 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+125 455 moveto
+(S Perez 1) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+120 380 moveto celda
+stroke
+newpath
+210 435 moveto
+(9) show
+newpath
+125 435 moveto
+(K621 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+125 385 moveto
+(Perez S 2) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+120 310 moveto celda
+stroke
+newpath
+210 365 moveto
+(10) show
+newpath
+125 365 moveto
+(K968 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+125 315 moveto
+(2-Ingeniero) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+120 240 moveto celda
+stroke
+newpath
+210 295 moveto
+(11) show
+newpath
+125 295 moveto
+(K954 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+125 245 moveto
+(1-JP Maquir) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+120 170 moveto celda
+stroke
+newpath
+210 225 moveto
+(12) show
+newpath
+125 225 moveto
+(K616 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+125 175 moveto
+(2-Matta M) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+120 100 moveto celda
+stroke
+newpath
+210 155 moveto
+(13) show
+newpath
+125 155 moveto
+(K614 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+125 105 moveto
+(4-Rotondo) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+120 30 moveto celda
+stroke
+newpath
+210 85 moveto
+(14) show
+newpath
+125 85 moveto
+(K620 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+125 35 moveto
+(S Perez ) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+230 450 moveto celda
+stroke
+newpath
+320 505 moveto
+(15) show
+newpath
+235 505 moveto
+(K630 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+235 455 moveto
+(Chialvo M) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+230 380 moveto celda
+stroke
+newpath
+320 435 moveto
+(16) show
+newpath
+235 435 moveto
+(K629 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+235 385 moveto
+(Chialvo M) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+230 310 moveto celda
+stroke
+newpath
+320 365 moveto
+(17) show
+newpath
+235 365 moveto
+(K387 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+235 315 moveto
+(Martin Cane) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+230 240 moveto celda
+stroke
+newpath
+320 295 moveto
+(18) show
+newpath
+235 295 moveto
+(K618 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+235 245 moveto
+(Canela 2) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+230 170 moveto celda
+stroke
+newpath
+320 225 moveto
+(19) show
+newpath
+235 225 moveto
+(K615 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+235 175 moveto
+(Canela 1) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+230 100 moveto celda
+stroke
+newpath
+320 155 moveto
+(20) show
+newpath
+235 155 moveto
+(K521 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+235 105 moveto
+(Canela J) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+230 30 moveto celda
+stroke
+newpath
+320 85 moveto
+(21) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+340 450 moveto celda
+stroke
+newpath
+430 505 moveto
+(22) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+340 380 moveto celda
+stroke
+newpath
+430 435 moveto
+(23) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+340 310 moveto celda
+stroke
+newpath
+430 365 moveto
+(24) show
+newpath
+345 365 moveto
+(K645 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+345 315 moveto
+(2-Robledo C) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+340 240 moveto celda
+stroke
+newpath
+430 295 moveto
+(25) show
+newpath
+345 295 moveto
+(K628 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+345 245 moveto
+(1-Sebastian) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+340 170 moveto celda
+stroke
+newpath
+430 225 moveto
+(26) show
+newpath
+345 225 moveto
+(K590 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+345 175 moveto
+(Robledo S) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+340 100 moveto celda
+stroke
+newpath
+430 155 moveto
+(27) show
+newpath
+345 155 moveto
+(K587 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+345 105 moveto
+(Robledo S) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+340 30 moveto celda
+stroke
+newpath
+430 85 moveto
+(28) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+450 450 moveto celda
+stroke
+newpath
+540 505 moveto
+(29) show
+newpath
+455 505 moveto
+(K636 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+455 455 moveto
+(2-Coltrinar) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+450 380 moveto celda
+stroke
+newpath
+540 435 moveto
+(30) show
+newpath
+455 435 moveto
+(K635 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+455 385 moveto
+(Coltrinari ) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+450 310 moveto celda
+stroke
+newpath
+540 365 moveto
+(31) show
+newpath
+455 365 moveto
+(K480 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+455 315 moveto
+(Luciano B) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+450 240 moveto celda
+stroke
+newpath
+540 295 moveto
+(32) show
+newpath
+455 295 moveto
+(K479 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+455 245 moveto
+(2-Balerini) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+450 170 moveto celda
+stroke
+newpath
+540 225 moveto
+(33) show
+newpath
+455 225 moveto
+(K634 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+455 175 moveto
+(1-Balerini) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+450 100 moveto celda
+stroke
+newpath
+540 155 moveto
+(34) show
+newpath
+455 155 moveto
+(K633 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+455 105 moveto
+(Balerini) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+450 30 moveto celda
+stroke
+newpath
+540 85 moveto
+(35) show
+newpath
+455 85 moveto
+(K637 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+455 35 moveto
+(1-Coltrinar) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+560 450 moveto celda
+stroke
+newpath
+650 505 moveto
+(36) show
+newpath
+565 505 moveto
+(K624 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+565 455 moveto
+(1-Pace B) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+560 380 moveto celda
+stroke
+newpath
+650 435 moveto
+(37) show
+newpath
+565 435 moveto
+(K625 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+565 385 moveto
+(Pace B) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+560 310 moveto celda
+stroke
+newpath
+650 365 moveto
+(38) show
+newpath
+565 365 moveto
+(K440 Scan) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+565 315 moveto
+(PRENSA Casa) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+560 240 moveto celda
+stroke
+newpath
+650 295 moveto
+(39) show
+newpath
+565 295 moveto
+(K576 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+565 245 moveto
+(Casais 2) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+560 170 moveto celda
+stroke
+newpath
+650 225 moveto
+(40) show
+newpath
+565 225 moveto
+(K573 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+565 175 moveto
+(Casais 1) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+560 100 moveto celda
+stroke
+newpath
+650 155 moveto
+(41) show
+newpath
+565 155 moveto
+(K571 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+565 105 moveto
+(Casais D) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+560 30 moveto celda
+stroke
+newpath
+650 85 moveto
+(42) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+670 450 moveto celda
+stroke
+newpath
+760 505 moveto
+(43) show
+newpath
+675 505 moveto
+(K572 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+675 455 moveto
+(3-Pace B) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+670 380 moveto celda
+stroke
+newpath
+760 435 moveto
+(44) show
+newpath
+675 435 moveto
+(K626 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+675 385 moveto
+(2-Pace B) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+670 310 moveto celda
+stroke
+newpath
+760 365 moveto
+(45) show
+newpath
+675 365 moveto
+(K676 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+675 315 moveto
+(Starosielsk) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+670 240 moveto celda
+stroke
+newpath
+760 295 moveto
+(46) show
+newpath
+675 295 moveto
+(K675 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+675 245 moveto
+(Starosielsk) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+670 170 moveto celda
+stroke
+newpath
+760 225 moveto
+(47) show
+newpath
+675 225 moveto
+(K438 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+675 175 moveto
+(1-Donzino M) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+670 100 moveto celda
+stroke
+newpath
+760 155 moveto
+(48) show
+newpath
+675 155 moveto
+(K606 Asis) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+675 105 moveto
+(2-Donzino M) show
+/Courier findfont
+10 scalefont
+setfont
+newpath
+670 30 moveto celda
+stroke
+newpath
+760 85 moveto
+(49) show
+newpath
+675 85 moveto
+(K605 Auto) show
+/Courier findfont
+16 scalefont
+setfont
+newpath
+675 35 moveto
+(Donzino Max) show
+showpage
