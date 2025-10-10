@@ -28,7 +28,7 @@ class Conexion:
         try:
             self.connection = db.connect(**DB_CONFIG)
         except db.Error as err:
-            print(f"Error connecting to database: {err}")
+            print("Error connecting to database: {0}".format(err))
             # In a real app, you might want to handle this more gracefully
             # For this script, we'll exit if the DB isn't available.
             exit()
@@ -42,7 +42,7 @@ class Conexion:
                 self.connection.commit() # Commit is needed for INSERT/UPDATE/DELETE
                 return resultado
         except db.Error as err:
-            print(f"Database query failed: {err}")
+            print("Database query failed: {0}".format(err))
             return [] # Return an empty list on failure
 
 class Sesion(Conexion):
@@ -162,7 +162,7 @@ class Sesion(Conexion):
             return True
         except Exception as e:
             # self.consultar will print the error, but we can log more context here
-            print(f"Failed to add transito: {e}")
+            print("Failed to add transito: {0}".format(e))
             return False
 
     # ... (all other database methods like agregar_movimiento, consultar_fechas, etc.,

@@ -18,7 +18,7 @@ class Conexion:
         try:
             self.connection = db.connect(**DB_CONFIG)
         except db.Error as err:
-            print(f'No se pudo conectar a la base de datos: {err}')
+            print('No se pudo conectar a la base de datos: {0}'.format(err))
             self.connection = None
 
     def consultar(self, sql, params=None):
@@ -29,7 +29,7 @@ class Conexion:
                 cursor.execute(sql, params or ())
                 return cursor.fetchone()
         except db.Error as err:
-            print(f'Error en consulta: {err}')
+            print('Error en consulta: {0}'.format(err))
             return None
 
 class Contenedor(Conexion):
