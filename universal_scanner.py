@@ -8,8 +8,15 @@ import time
 import threading
 import queue
 from datetime import datetime
-import mysql.connector as db
 from zebra import Zebra
+
+# Try to import MySQLdb first (for Raspberry Pi compatibility)
+try:
+    import MySQLdb as db
+    USE_MYSQLDB = True
+except ImportError:
+    import mysql.connector as db
+    USE_MYSQLDB = False
 
 # --- Configuración ---
 DB_CONFIG = {
@@ -97,9 +104,18 @@ class UniversalScanner:
 class Conexion:
     def __init__(self):
         try:
-            self.connection = db.connect(**DB_CONFIG)
+            if USE_MYSQLDB:
+                self.connection = db.Connection(
+                    host=DB_CONFIG['host'],
+                    port=DB_CONFIG['port'],
+                    user=DB_CONFIG['user'],
+                    passwd=DB_CONFIG['password'],
+                    db=DB_CONFIG['database']
+                )
+            else:
+                self.connection = db.connect(**DB_CONFIG)
             print("Conexión a base de datos establecida")
-        except db.Error as err:
+        except Exception as err:
             print(f"Error conectando a base de datos: {err}")
             self.connection = None
 

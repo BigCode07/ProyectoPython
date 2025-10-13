@@ -9,12 +9,19 @@ import pygame
 import serial
 import time
 import os
-import mysql.connector as db # Changed from MySQLdb
 import math
 from zebra import Zebra
 
+# Try to import MySQLdb first (for Raspberry Pi compatibility)
+# If not available, fall back to mysql.connector
+try:
+    import MySQLdb as db
+    USE_MYSQLDB = True
+except ImportError:
+    import mysql.connector as db
+    USE_MYSQLDB = False
+
 # --- Configuration ---
-# It's better to load these from a config file or environment variables
 DB_CONFIG = {
     'host': '192.168.11.3',
     'port': 3306,
@@ -26,11 +33,20 @@ DB_CONFIG = {
 class Conexion:
     def __init__(self):
         try:
-            self.connection = db.connect(**DB_CONFIG)
-        except db.Error as err:
+            if USE_MYSQLDB:
+                # MySQLdb uses different parameter names
+                self.connection = db.Connection(
+                    host=DB_CONFIG['host'],
+                    port=DB_CONFIG['port'],
+                    user=DB_CONFIG['user'],
+                    passwd=DB_CONFIG['password'],
+                    db=DB_CONFIG['database']
+                )
+            else:
+                # mysql.connector syntax
+                self.connection = db.connect(**DB_CONFIG)
+        except Exception as err:
             print("Error connecting to database: {0}".format(err))
-            # In a real app, you might want to handle this more gracefully
-            # For this script, we'll exit if the DB isn't available.
             exit()
 
     def consultar(self, sql, params=None):

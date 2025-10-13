@@ -1,8 +1,15 @@
 # reimpresion_upc_corrected.py
 import os
-import mysql.connector as db # Changed from MySQLdb
 from zebra import Zebra
 import time
+
+# Try to import MySQLdb first (for Raspberry Pi compatibility)
+try:
+    import MySQLdb as db
+    USE_MYSQLDB = True
+except ImportError:
+    import mysql.connector as db
+    USE_MYSQLDB = False
 
 # --- Configuration ---
 DB_CONFIG = {
@@ -16,10 +23,19 @@ DB_CONFIG = {
 class Conexion:
     def __init__(self):
         try:
-            self.connection = db.connect(**DB_CONFIG)
-        except db.Error as err:
+            if USE_MYSQLDB:
+                self.connection = db.Connection(
+                    host=DB_CONFIG['host'],
+                    port=DB_CONFIG['port'],
+                    user=DB_CONFIG['user'],
+                    passwd=DB_CONFIG['password'],
+                    db=DB_CONFIG['database']
+                )
+            else:
+                self.connection = db.connect(**DB_CONFIG)
+        except Exception as err:
             print(f'No se pudo conectar a la base de datos: {err}')
-            self.connection = None # Ensure connection is None on failure
+            self.connection = None
 
     def consultar(self, sql, params=None):
         if not self.connection:
