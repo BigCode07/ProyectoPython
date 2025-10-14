@@ -7,7 +7,7 @@ import time
 import os
 import math
 import serial
-from zebra import Zebra
+from zebra_compat import Zebra
 import subprocess
 
 # Try to import MySQLdb first (for Raspberry Pi compatibility)

@@ -1,6 +1,6 @@
 # reimpresion_upc_corrected.py
 import os
-from zebra import Zebra
+from zebra_compat import Zebra
 import time
 
 # Try to import MySQLdb first (for Raspberry Pi compatibility)

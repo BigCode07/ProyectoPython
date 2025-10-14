@@ -10,7 +10,7 @@ import serial
 import time
 import os
 import math
-from zebra import Zebra
+from zebra_compat import Zebra
 
 # Try to import MySQLdb first (for Raspberry Pi compatibility)
 # If not available, fall back to mysql.connector

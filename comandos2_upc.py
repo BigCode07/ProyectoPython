@@ -1,7 +1,7 @@
 # comandos_upc_corrected.py
 import os
 import time
-from zebra import Zebra
+from zebra_compat import Zebra
 
 class Articulo:
     def __init__(self):

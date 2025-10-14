@@ -8,7 +8,7 @@ import time
 import threading
 import queue
 from datetime import datetime
-from zebra import Zebra
+from zebra_compat import Zebra
 
 # Try to import MySQLdb first (for Raspberry Pi compatibility)
 try:

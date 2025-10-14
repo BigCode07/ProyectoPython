@@ -1,6 +1,6 @@
 import os
 import time
-from zebra import Zebra  # asegurate de tener instalado este paquete
+from zebra_compat import Zebra  # Módulo compatible con o sin python-zebra
 
 class Articulo:
     def __init__(self):
