@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # comandos_upc_corrected.py
 import os
 import time

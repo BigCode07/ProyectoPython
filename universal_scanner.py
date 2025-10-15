@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # universal_scanner.py
 # Scanner universal compatible con cualquier lectora de código de barras
 # Permite entrada manual y automática por scanner

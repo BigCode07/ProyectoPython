@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # transitos_a_corrected.py
 # 12-05-17
 # Transitos y contenedores

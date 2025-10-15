@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # hts_a_corrected.py
 # This is a partial correction focusing on the most critical issues:
 # database connectivity, security, and Python 3 compatibility.

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Módulo de compatibilidad para impresoras Zebra
 Funciona con o sin la librería python-zebra instalada

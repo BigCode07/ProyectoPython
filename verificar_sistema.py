@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Script de verificación rápida del sistema
 Ejecutar: python3 verificar_sistema.py

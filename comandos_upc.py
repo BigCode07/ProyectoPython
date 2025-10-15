@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 import time
 from zebra_compat import Zebra  # Módulo compatible con o sin python-zebra

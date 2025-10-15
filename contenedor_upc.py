@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # contenedor_upc_corrected.py
 import os
 from zebra_compat import Zebra
